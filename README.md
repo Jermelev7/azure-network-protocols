@@ -88,4 +88,4 @@ checked to see if I could connect to "www.google.com" I was able to get a respon
                                                                                           
 So after removing the security rule to deny Icmp ping, we can see that the connection was restored.                                                                                          
 
-<img scr="https://i.imgur.com/EbcY4Lr.png                                                                                           
+<img scr="https://i.imgur.com/EbcY4Lr.png" hight="80%" width=80% alt="DIsk Sanitization Steps"/>                                                                                          
