@@ -90,7 +90,7 @@ So after removing the security rule to deny Icmp ping, we can see that the conne
 
 <img src="https://i.imgur.com/EbcY4Lr.png" hight="80%" width=80% alt="DIsk Sanitization Steps"/>                                                                                          
 
- Here we can view the traffic via "SSh"
+ Here we can view the traffic via "SSH"
                                        
                                        
                                        
