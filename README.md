@@ -14,7 +14,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, RDH, DNS, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -89,3 +89,21 @@ checked to see if I could connect to "www.google.com" I was able to get a respon
 So after removing the security rule to deny Icmp ping, we can see that the connection was restored.                                                                                          
 
 <img src="https://i.imgur.com/EbcY4Lr.png" hight="80%" width=80% alt="DIsk Sanitization Steps"/>                                                                                          
+
+ Here we can view the traffic via "SSh"
+                                       
+                                       
+                                       
+<img src="https://i.imgur.com/uosWrMj.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
+                                                                                                
+Here we are just some Linux commands just to view the traffic.
+                                                                                                
+                                                                                                
+<img src="https://i.imgur.com/arVJ3ie.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
+                                                                                                
+Here we can see the trffic via "DHCP" we used the ping "ipconfig /renew" to renew an IP address.
+                                                                        
+                                                                        
+ <img src="https://i.imgur.com/CARPpnN.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
+                                                                                                 
+Without using any commands we can see the traffic of communication on "DNS"                                                                                                 
