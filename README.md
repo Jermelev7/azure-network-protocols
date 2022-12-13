@@ -57,35 +57,35 @@ Here we can see that as we are creating Virtual Machine #1 (VM1) it created its 
 While creating Virtual Machine #2 (VM2) we can see here that its on the same network as (VM1).
 </p>
 <br />
-<img src="https://i.imgur.com/i1C0PrV.png" height="80%" width=80%" alt="DIsk Sanitization Steps"/>
+<img src="https://i.imgur.com/i1C0PrV.png" height="80%" width=80%" alt="Disk Sanitization Steps"/>
 
                                                                                           
 We can see here that both Virtual Mschines have been created and we can view them in the Network Watcher in Azure.
                                                                                           
 
-<img scr="https://i.imgur.com/36Lk4eJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/36Lk4eJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
                                                                                            
 We are now connecting our Virtual Machines to your remote desktop.
                                                                                            
 
-<img scr="https://i.imgur.com/sDUgW9a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sDUgW9a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
                                                                                            
 We have now installed Wireshark, and we will begain to view some traffic.                                                                                           
 
 
-<img scr="https://i.imgur.com/ALkSSAe.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ALkSSAe.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 After connecting VM1 and VM2 we are using "icmp" to make sure that everything is connecting well by using "ping" to message VM2 from VM1 and see the cumminication.                                                                                         
                                                                                            
 
-<img scr="https://i.imgur.com/cGEoDGj.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cGEoDGj.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
                                                                                            
 Here we are running a few tests to ensure we have a connection, as you can see after checking the connetion between Virtual Machine #1 and Virtual Machine #2 I
 checked to see if I could connect to "www.google.com" I was able to get a response from google, I actually tried google a few times. Furthemore I went into the VM2 to deny "icmp" traffic and as you can see there is a request time out, so I'll go back in to restore it.
 
 
-<img scr="https://i.imgur.com/VqTMRmn.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VqTMRmn.png" hight="80%" width="80%" alt="Disk Sanitization Steps"/>
                                                                                           
 So after removing the security rule to deny Icmp ping, we can see that the connection was restored.                                                                                          
 
-<img scr="https://i.imgur.com/EbcY4Lr.png" hight="80%" width=80% alt="DIsk Sanitization Steps"/>                                                                                          
+<img src="https://i.imgur.com/EbcY4Lr.png" hight="80%" width=80% alt="DIsk Sanitization Steps"/>                                                                                          
