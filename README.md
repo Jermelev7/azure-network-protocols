@@ -35,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://https://imgur.com/AA0kZTf" 
+<img src="https://imgur.com/a/hk9vc56" 
 </p>
 <p>
 Here we have a our Resource Group created, "RG-Network-Security" we can move on to creating our Virtual Machines.
@@ -43,7 +43,7 @@ Here we have a our Resource Group created, "RG-Network-Security" we can move on 
 <br />
 
 <p>
-<img src="https://https://imgur.com/a/l0czBAT" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/l0czBAT" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Here we can see that as we are creating Virtual Machine #1 (VM1) it created its own Virtual Network (Vnet) and Subnet.
@@ -51,7 +51,7 @@ Here we can see that as we are creating Virtual Machine #1 (VM1) it created its 
 <br />
 
 <p>
-<img src="https://https://https://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 While creating Virtual Machine #2 (VM2) we can see here that its on the same network as (VM1).
